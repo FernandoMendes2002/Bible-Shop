@@ -120,15 +120,108 @@ body {
     overflow-x: scroll;
 }
 
-@media screen and (min-width:450px) and (max-width:639px){
+@media screen and (min-width:320px) and (max-width:445px) {
+    * {
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        margin: 5px;
+    }
+    
+    .move a {
+        position: relative;
+        bottom: 40px;
+        margin-left: -14%;
+        text-decoration: none;
+    }
+    
+    .menu {
+        border: 1px solid #fff;
+        width: 390px;
+        margin-left: -3px;
+    }
+    
+    .menu ul {
+        list-style: none;
+    }
+    
+    .menu li {
+        display: block;
+    }
+    
+    .loja img {
+        width: 370px;
+        margin-top: 55px;
+        margin-right: 1px;
+    }
+    
+    .sobre {
+        position: relative;
+        left: -4%;
+        bottom: 10px;
+        display: block;
+        text-align: left;
+        margin-bottom: 12px;
+        margin-top: 10px;
+        color: #fff;
+        width: 9px;
+        font-size: 18px;
+    }
+    
+    .sobre h2 {
+        font-size: 40px;
+        margin-left: 5px;
+    }
+    
+    .sobre p {
+        display: block;
+        width: 400px;
+    }
+    #produtos {
+        display: block;
+    }
+
+    .produtos h2 {
+        font-size: 40px;
+        margin-left: 1px;
+    }
+
+    .produto {
+        display: block;
+        margin-left: 80px;
+    }
+    
+    .produto img {
+        margin-left: -55px;
+        width: 300px;
+        border: 5px solid #FFD700;
+    }
+    
+    .produto p {
+        font-size: 29px;
+        margin-left: -50px;
+    }
+    
+    .produto button {
+        cursor: pointer;
+        margin-bottom: 90px;
+        padding: 15px;
+        margin-left: -55px;
+        border-radius: 5px;
+        display: block;
+        width: 315px;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 15px;
+    }
+    
+    ::-webkit-scrollbar {
+        overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width:539px) {
     * {
         font-family: Georgia, Times, 'Times New Roman', serif;
         margin: 10px;
-    }
-    
-    body {
-        background-color: black;
-        overflow: auto;
     }
     
     .move a {
@@ -219,10 +312,10 @@ body {
     }
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 540px) and (max-width:640px) {
     * {
         font-family: Georgia, Times, 'Times New Roman', serif;
-        margin: 10px;
+        margin: 5px;
     }
     
     body {
@@ -231,15 +324,15 @@ body {
     }
     
     .move a {
-        position: relative;
-        bottom: 46px;
-        left: 79%;
+        bottom: 38px;
+        left: 350px;
         text-decoration: none;
     }
     
     .menu {
-        position: relative;
+        position: absolute;
         border: 1px solid #fff;
+        width:500px;
     }
     
     .menu ul {
@@ -251,10 +344,9 @@ body {
     }
     
     .loja img {
-        width: 550px;
-        margin-top: 55px;
-        border: 2px solid #000;
-        box-shadow: 0 0 16px #FFD700;
+        width: 480px;
+        margin-top: 135px;
+        border: 1px solid #000;
     }
     
     .sobre {
@@ -264,9 +356,10 @@ body {
         display: block;
         text-align: left;
         margin-bottom: 12px;
-        margin-top: 12px;
+        margin-top: 30px;
         color: #fff;
-        width: 550px;
+        width: 500px;
+        font-size: 20px;
     }
     
     .sobre h2 {
@@ -295,12 +388,12 @@ body {
     
     .produto img {
         margin-right: 10px ;
-        width: 300px;
+        width: 330px;
         border: 5px solid #FFD700;
     }
     
     .produto p {
-        font-size: 25px;
+        font-size: 30px;
     }
     
     .produto button {
@@ -309,10 +402,10 @@ body {
         padding: 11px;
         border-radius: 5px;
         display: block;
-        width: 70%;
+        width: 80%;
         font-weight: bold;
         font-style: italic;
-        font-size: 12px;
+        font-size: 18px;
     }
     
     ::-webkit-scrollbar {
@@ -320,21 +413,15 @@ body {
     }
 }
 
-@media screen and (min-width: 641px) and (max-width: 1023px) {
+@media screen and (min-width: 641px) and (max-width: 852px) {
     * {
         font-family: Georgia, Times, 'Times New Roman', serif;
-        margin: 10px;
-    }
-    
-    body {
-        background-color: black;
-        overflow: auto;
     }
     
     .move a {
         position: relative;
-        bottom: 46px;
-        left: 79%;
+        bottom: 35px;
+        left: 83%;
         text-decoration: none;
     }
     
@@ -352,6 +439,7 @@ body {
     }
     
     .loja img {
+        margin-left: 70px;
         width: 550px;
         margin-top: 55px;
         border: 2px solid #000;
@@ -367,12 +455,13 @@ body {
         margin-bottom: 12px;
         margin-top: 12px;
         color: #fff;
-        width: 550px;
+        font-size: 18px;
+        width:730px;
     }
     
     .sobre h2 {
         font-size: 35px;
-        margin-left: 5px;
+        margin-left: -8px;
     }
     
     .sobre p {
@@ -385,17 +474,17 @@ body {
 
     .produtos h2 {
         font-size: 35px;
-        margin-left: 29px;
+        margin-left: -1px;
     }
 
     .produto {
         display: ruby;
         right: 40%;
-        margin-left: 18px;
+        margin-left: 20px;
     }
     
     .produto img {
-        width: 250px;
+        width: 340px;
         border: 5px solid #FFD700;
     }
     
@@ -413,6 +502,118 @@ body {
         font-weight: bold;
         font-style: italic;
         font-size: 15px;
+    }
+
+    .nvi {
+        margin-left: 13px;
+    }
+
+    .fim {
+        margin-left:5px;
+    }
+    
+    ::-webkit-scrollbar {
+        overflow-x: scroll;
+    }
+} 
+
+@media screen and (min-width: 853px) and (max-width: 1023px) {
+    * {
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        margin: 10px;
+    }
+    
+    body {
+        background-color: black;
+        overflow: auto;
+    }
+    
+    .move a {
+        position: relative;
+        bottom: 45px;
+        left: 80%;
+        text-decoration: none;
+        font-size: 22px;
+    }
+    
+    .menu {
+        position: relative;
+        border: 1px solid #fff;
+        width:790px;
+    }
+    
+    .menu ul {
+        list-style: none;
+    }
+    
+    .menu li {
+        display: block;
+    }
+    
+    .loja img {
+        width: 750px;
+        margin-top: 55px;
+        border: 2px solid #000;
+        box-shadow: 0 0 16px #FFD700;
+    }
+    
+    .sobre {
+        position: relative;
+        left: 1%;
+        bottom: 10px;
+        display: block;
+        text-align: left;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        color: #fff;
+        width: 750px;
+        font-size: 25px;
+    }
+    
+    .sobre h2 {
+        font-size: 40px;
+        margin-left: 5px;
+    }
+    
+    .sobre p {
+        display: block;
+        right: 20px;
+    }
+    #produtos {
+        display: block;
+    }
+
+    .produtos h2 {
+        font-size: 40px;
+        margin-left: 29px;
+        margin-top: 50px;
+    }
+
+    .produto {
+        display: ruby;
+        right: 40%;
+        margin-left: 18px;
+    }
+    
+    .produto img {
+        width: 328px;
+        border: 5px solid #FFD700;
+    }
+    
+    .produto p {
+        font-size: 35px;
+    }
+    
+    .produto button {
+        cursor: pointer;
+        margin-bottom: 85px;
+        padding: 11px;
+        border-radius: 5px;
+        display: block;
+        width: 95%;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 25px;
     }
     
     ::-webkit-scrollbar {
@@ -434,7 +635,7 @@ body {
     .move a {
         position: relative;
         bottom: 45px;
-        left: 90%;
+        left: 87%;
         text-decoration: none;
     }
     
@@ -454,7 +655,7 @@ body {
     .loja img {
         width: 550px;
         margin-top: 55px;
-        margin-left: 28%;
+        margin-left: 20%;
         border: 2px solid #000;
         box-shadow: 0 0 16px #FFD700;
     }
@@ -468,22 +669,22 @@ body {
         margin-bottom: 12px;
         margin-top: 12px;
         color: #fff;
-        width: 555px;
+        font-size: 20px;
     }
     
     .sobre h2 {
-        font-size: 35px;
-        margin-left: 5px;
+        font-size: 40px;
+        margin-left: -35px;
     }
     
     .sobre p {
         display: block;
-        right: 20px;
+        margin-left: -35px;
     }
 
     .produtos h2 {
-        font-size: 35px;
-        margin-left: 29px;
+        font-size: 40px;
+        margin-left: -20px;
     }
 
     .produto {
@@ -493,26 +694,120 @@ body {
     }
     
     .produto img {
-        width: 250px;
+        width: 225px;
         border: 5px solid #FFD700;
+        margin-left: 50px;
+        margin-right: 16px;
     }
     
     .produto p {
-        font-size: 25px;
+        font-size: 20px;
+        margin-left: 55px;
     }
     
     .produto button {
         cursor: pointer;
         margin-bottom: 85px;
+        margin-left: 55px;
         padding: 11px;
         border-radius: 5px;
-        width: 90%;
+        width: 78%;
         font-weight: bold;
         font-style: italic;
         font-size: 15px;
     }
+
+    .bible {
+        margin-left: -85px;
+    }
+
+    .sagrada {
+        margin-left: -55px;
+    }
+
+    .nvi {
+        margin-left: -55px;
+    }
+
+    .fim{
+        margin-left: -55px;
+    }
+
+    .git {
+        font-size: 23px;
+    }
     
     ::-webkit-scrollbar {
         overflow-x: scroll;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .move a {
+        position: relative;
+        bottom: 45px;
+        left: 90%;
+        text-decoration: none;
+    }
+
+    .loja img {
+        width: 780px;
+        margin-top: 50px;
+        margin-left: 20%;
+        border: 2px solid #000;
+        box-shadow: 0 0 16px #FFD700;
+    }
+    
+    .sobre {
+        position: relative;
+        top: 19px;
+        left: 1%;
+        bottom: 10px;
+        display: inline;
+        text-align: left;
+        margin-bottom: 12px;
+        margin-top: 12px;
+        color: #fff;
+        font-size: 24px;
+    }
+
+    .produto {
+        display: flex;
+    }
+    
+    .produto img {
+        width: 240px;
+        border: 5px solid #FFD700;
+    }
+
+    .produto p {
+        font-size: 28px;
+    }
+
+    .produto button {
+        cursor: pointer;
+        margin-bottom: 85px;
+        padding: 11px;
+        border-radius: 5px;
+        width: 70%;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 20px;
+    }
+
+    .sagrada {
+        margin-left: -55px;
+    }
+
+    .nvi {
+        margin-left: -55px;
+    }
+
+    .fim{
+        margin-left: -55px;
+    }
+
+    .git {
+        font-size: 25px;
     }
 }
